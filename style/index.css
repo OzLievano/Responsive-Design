@@ -109,6 +109,96 @@ p{
     width:200px;
 }
 
+@media(max-width:1366px){
+}
+.top-container{
+    background-color: aqua;
+    padding:2%;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.navbar{
+    display:flex;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    font-size: 20px;
+}
+.navbar button{
+    text-decoration: none;
+    height: 40px;
+}
+
+.top-mid-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:2%;
+}
+
+img{
+    width: 50%;
+}
+
+#about-me-container{
+    width:50%;
+    margin-left: 3%;
+    align-content: center;
+    font-size:28px;
+}
+
+h2{
+    font-size:40px;
+    padding:5px;
+}
+
+p{
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.project-container{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: violet;
+}
+
+.project-container > div{
+    display:flex;
+    width: 25%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer-section{
+    display:flex;
+    flex-direction: column;
+    background:aqua;
+    align-items: center;
+    padding:3%;
+}
+
+.footer-section h3{
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 100px;
+}
+
+.footer-section button{
+    height: 50px;
+    width:200px;
+}
+
+
 @media (max-width:800px){
    h1{
     text-align: center;
