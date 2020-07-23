@@ -143,13 +143,13 @@ p{
        align-content: center;
        margin-left: 25%;
    }
-   #about-me-container a button{
-       margin-left: 20%;
-   }
-
-   #about-me-container p{
+   
+   #about-me-container{
+       align-content: center;
        text-align: center;
    }
+
+   
 }
 
 @media (max-width:500px){
