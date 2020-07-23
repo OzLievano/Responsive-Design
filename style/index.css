@@ -276,7 +276,7 @@ p{
        #about-me-container{
            align-content: center;
            text-align: center;
-           font-size: 1.5em;
+           font-size: 1.2em;
        }
     
        .project-container{
@@ -320,7 +320,7 @@ p{
        #about-me-container p{
            align-content: center;
            text-align: center;
-           font-size: .5em;
+           font-size: .8em;
        }
     
        .project-container{
